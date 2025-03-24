@@ -9,7 +9,9 @@ from playwright.async_api import async_playwright
 wahlkreise = {
     "Freising": "https://wahl.kreis-freising.de/upload/2025-bundestag/ergebnisse",
     "Landshut" : "https://landshut.de/wahlen/Bundestagswahl-2025/ergebnisse",
-    "München-Land" : "https://memo.landkreis-muenchen.de/wahlen/bundestagswahl_2025/ergebnisse"
+    "München-Land" : "https://memo.landkreis-muenchen.de/wahlen/bundestagswahl_2025/ergebnisse",
+    "Weiden": "https://www1.wahlen.weiden.de/20250223/ergebnisse",
+    "Würzburg": "https://wahlen.wuerzburg.de/Wahl-2025-02-23/Bundestagswahl/ergebnisse"
 }
 
 async def download_csv(page, akt_wahlkreis, gem_sch):
